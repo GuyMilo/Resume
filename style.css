@@ -24,6 +24,15 @@ body {
 
 }
 
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .dark-mode a {
+    color: #bb86fc;
+}
+
 section {
     margin: auto 1em 4em 2em;
 }
