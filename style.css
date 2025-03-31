@@ -1,16 +1,10 @@
 
 main { 
     display: grid;
-    grid-template-columns: 1fr; /* Two columns on larger screens */
+    grid-template-columns: 40% 60%;
     gap: 1em;
     margin-top: 3em;
 }
-
-@media (min-width: 768px) {
-    main {
-      grid-template-columns: 40% 60%; /* Two columns on larger screens */
-    }
-  }
 
 #mainLeft {
     border-right: 1px solid lightgray;
@@ -22,15 +16,6 @@ body {
     max-width: 960px;
     margin: auto;
 
-}
-
-body.dark-mode {
-    background-color: #121212;
-    color: #ffffff;
-  }
-  
-  .dark-mode a {
-    color: #bb86fc;
 }
 
 section {
