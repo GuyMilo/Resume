@@ -2,7 +2,6 @@
 main { 
     display: grid;
     grid-template-columns: 40% 60%;
-    gap: 1em;
     margin-top: 3em;
 }
 
@@ -47,7 +46,6 @@ hr {
 h1, h2, h4, h5 {
     font-weight: 100;
     margin-bottom: 1em;
-    color: #222;
 }
 
 h1 {
