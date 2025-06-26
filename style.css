@@ -3,6 +3,7 @@ main {
     display: grid;
     grid-template-columns: 40% 60%;
     margin-top: 1em;
+    padding: 1em 0
 }
 
 #mainLeft {
@@ -11,10 +12,9 @@ main {
 
 body {
     font-family: 'Segoe UI', Tahoma, Arial, Helvetica, sans-serif, Verdana, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     max-width: 960px;
     margin: auto;
-
 }
 
 section {
@@ -40,11 +40,11 @@ hr {
     border: none;
     font-size: 10px;
     background-color: lightgray;
-    height: 1px;
+    height: 1.5px;
 }
 
 h1, h2, h4, h5 {
-    font-weight: 100;
+    font-weight: 400;
     margin-bottom: 1em;
 }
 
@@ -65,10 +65,23 @@ h3 {
     padding-bottom: 0em;
 }
 
-ul {
-    list-style-type: disc;
-    margin-left: 1em;
+h4 {
+    font-weight: 350;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
 }
+
+h5 {
+    font-size: 0.95em;
+    font-weight: 400;
+    margin: 0.3em 0;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+    line-height: 1.3em;
+}
+
 
 a {
     color: #0077cc;
@@ -90,3 +103,16 @@ a:hover {
     border-radius: 4px;
 }
 
+@media print {
+    .button {
+        display: none;
+    }
+    body {
+        background: white;
+        color: black;
+    }
+    a {
+        color: black;
+        text-decoration: underline;
+    }
+}
