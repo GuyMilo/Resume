@@ -102,17 +102,3 @@ a:hover {
     text-decoration: none;
     border-radius: 4px;
 }
-
-@media print {
-    .button {
-        display: none;
-    }
-    body {
-        background: white;
-        color: black;
-    }
-    a {
-        color: black;
-        text-decoration: underline;
-    }
-}
